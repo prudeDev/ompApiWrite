@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/ompApiWrite/version.xml
+  *
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Plugin version information.
+  *
+  * <class> is mandatory: OMP only loads lazy-load plugins on HTTP requests
+  * when the registered product_class_name matches the plugin class.
+  -->
+<version>
+	<application>ompApiWrite</application>
+	<type>plugins.generic</type>
+	<release>1.0.1.0</release>
+	<date>2026-10-05</date>
+	<lazy-load>0</lazy-load>
+	<class>OmpApiWritePlugin</class>
+</version>

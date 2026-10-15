@@ -1,0 +1,17 @@
+# Basura de Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Traducciones compiladas (se generan desde los .po)
+*.mo
+
+# Dependencias, por si alguna vez se usa Composer
+/vendor/

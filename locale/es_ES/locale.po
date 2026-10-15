@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-02T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-10-02T00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.ompApiWrite.displayName"
+msgstr "Books API"
+
+msgid "plugins.generic.ompApiWrite.description"
+msgstr "Añade endpoints de escritura a la API REST de OMP para gestionar libros, autores, capítulos y formatos de publicación como backend."
+
+msgid "plugins.generic.ompApiWrite.published.locked"
+msgstr "El libro está publicado y sus metadatos están bloqueados. Despublícalo, edítalo y vuelve a publicarlo."
+
+msgid "plugins.generic.ompApiWrite.locale.unsupported"
+msgstr "Idioma no habilitado para envíos en esta editorial: {$locales}."
+
+msgid "plugins.generic.ompApiWrite.date.invalid"
+msgstr "La fecha debe tener el formato AAAA-MM-DD."
+
+msgid "plugins.generic.ompApiWrite.authors.notList"
+msgstr "\"authors\" debe ser una lista de objetos."
+
+msgid "plugins.generic.ompApiWrite.book.invalidWorkType"
+msgstr "workType debe ser \"authored\" (obra de autoría) o \"edited\" (volumen editado)."
+
+msgid "plugins.generic.ompApiWrite.book.deletePublished"
+msgstr "No se puede eliminar un libro publicado. Despublícalo primero."
+
+msgid "plugins.generic.ompApiWrite.book.alreadyPublished"
+msgstr "El libro ya está publicado."
+
+msgid "plugins.generic.ompApiWrite.book.notPublished"
+msgstr "El libro no está publicado ni programado."
+
+msgid "plugins.generic.ompApiWrite.cover.invalidType"
+msgstr "La portada debe ser una imagen GIF, JPG, PNG o WEBP."
+
+msgid "plugins.generic.ompApiWrite.cover.missing"
+msgstr "No hay portada en ese idioma a la que asignar el texto alternativo."
+
+msgid "plugins.generic.ompApiWrite.chapter.invalidAuthors"
+msgstr "authorIds debe ser una lista de IDs de autores de esta misma publicación."
+
+msgid "plugins.generic.ompApiWrite.chapter.notFound"
+msgstr "El capítulo no existe en esta publicación."
+
+msgid "plugins.generic.ompApiWrite.format.invalidEntryKey"
+msgstr "entryKey debe ser un código ONIX de forma de producto de 2 caracteres (ej. DA, BC, BB)."
+
+msgid "plugins.generic.ompApiWrite.format.invalidUrl"
+msgstr "remoteUrl debe ser una URL válida."
+
+msgid "plugins.generic.ompApiWrite.format.invalidUrlPath"
+msgstr "urlPath solo admite letras, números, '.', '-' y '_', y no puede ser solo números."
+
+msgid "plugins.generic.ompApiWrite.format.duplicateUrlPath"
+msgstr "Otro formato de esta publicación ya usa ese urlPath."
+
+msgid "plugins.generic.ompApiWrite.sales.invalidPrice"
+msgstr "Para venta directa envía un \"price\" numérico mayor que 0."
+
+msgid "plugins.generic.ompApiWrite.sales.invalidType"
+msgstr "salesType debe ser \"openAccess\", \"directSales\" o \"notAvailable\"."
+
+msgid "plugins.generic.ompApiWrite.orcid.invalid"
+msgstr "El ORCID iD no tiene un formato válido (ej. 0000-0002-1825-0097)."
+
+msgid "plugins.generic.ompApiWrite.orcid.fetchFailed"
+msgstr "No se pudo obtener el perfil público de ORCID. Verifica el ORCID iD y la conexión."
+
+msgid "plugins.generic.ompApiWrite.doi.invalid"
+msgstr "El DOI no tiene un formato válido (debe empezar con 10.xxxx/, ej. 10.1234/libro.2026.1)."
+
+msgid "plugins.generic.ompApiWrite.doi.duplicate"
+msgstr "Ese DOI ya está asignado a otro objeto de esta editorial."
+
+msgid "plugins.generic.ompApiWrite.bulk.required"
+msgstr "Se requiere un arreglo \"presses\" con al menos un elemento."
+
+msgid "plugins.generic.ompApiWrite.bulk.tooMany"
+msgstr "Demasiadas editoriales en una sola petición ({$count}). El máximo es {$max}. Envíalas en lotes más pequeños."
+
+msgid "plugins.generic.ompApiWrite.bulk.notObject"
+msgstr "Cada elemento debe ser un objeto."
+
+msgid "plugins.generic.ompApiWrite.bulk.pathAndName"
+msgstr "urlPath y name son obligatorios."
+
+msgid "plugins.generic.ompApiWrite.bulk.exists"
+msgstr "Ya existe una editorial con esa ruta."
+
+msgid "plugins.generic.ompApiWrite.bulk.localeSubset"
+msgstr "Los idiomas de {$label} deben estar entre los de la interfaz (supportedLocales). Fuera: {$locales}"
+
+msgid "plugins.generic.ompApiWrite.series.invalidPath"
+msgstr "path solo admite letras, números, '/', '.', '-' y '_'."
+
+msgid "plugins.generic.ompApiWrite.series.duplicatePath"
+msgstr "Otra serie de esta editorial ya usa ese path."
+
+msgid "plugins.generic.ompApiWrite.series.notEmpty"
+msgstr "La serie todavía tiene libros. Quítalos de la serie o elimínalos antes de borrarla."

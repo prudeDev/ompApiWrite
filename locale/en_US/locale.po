@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-02T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-10-02T00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.ompApiWrite.displayName"
+msgstr "Books API"
+
+msgid "plugins.generic.ompApiWrite.description"
+msgstr "Adds write endpoints to the OMP REST API to manage books, contributors, chapters and publication formats from a backend."
+
+msgid "plugins.generic.ompApiWrite.published.locked"
+msgstr "The book is published and its metadata is locked. Unpublish it, edit it and publish it again."
+
+msgid "plugins.generic.ompApiWrite.locale.unsupported"
+msgstr "Language not enabled for submissions in this press: {$locales}."
+
+msgid "plugins.generic.ompApiWrite.date.invalid"
+msgstr "The date must use the YYYY-MM-DD format."
+
+msgid "plugins.generic.ompApiWrite.authors.notList"
+msgstr "\"authors\" must be a list of objects."
+
+msgid "plugins.generic.ompApiWrite.book.invalidWorkType"
+msgstr "workType must be \"authored\" (authored work) or \"edited\" (edited volume)."
+
+msgid "plugins.generic.ompApiWrite.book.deletePublished"
+msgstr "A published book cannot be deleted. Unpublish it first."
+
+msgid "plugins.generic.ompApiWrite.book.alreadyPublished"
+msgstr "The book is already published."
+
+msgid "plugins.generic.ompApiWrite.book.notPublished"
+msgstr "The book is neither published nor scheduled."
+
+msgid "plugins.generic.ompApiWrite.cover.invalidType"
+msgstr "The cover must be a GIF, JPG, PNG or WEBP image."
+
+msgid "plugins.generic.ompApiWrite.cover.missing"
+msgstr "There is no cover in that language to attach the alt text to."
+
+msgid "plugins.generic.ompApiWrite.chapter.invalidAuthors"
+msgstr "authorIds must be a list of contributor IDs of this same publication."
+
+msgid "plugins.generic.ompApiWrite.chapter.notFound"
+msgstr "The chapter does not exist in this publication."
+
+msgid "plugins.generic.ompApiWrite.format.invalidEntryKey"
+msgstr "entryKey must be a 2-character ONIX product form code (e.g. DA, BC, BB)."
+
+msgid "plugins.generic.ompApiWrite.format.invalidUrl"
+msgstr "remoteUrl must be a valid URL."
+
+msgid "plugins.generic.ompApiWrite.format.invalidUrlPath"
+msgstr "urlPath only accepts letters, numbers, '.', '-' and '_', and cannot be numbers only."
+
+msgid "plugins.generic.ompApiWrite.format.duplicateUrlPath"
+msgstr "Another format of this publication already uses that urlPath."
+
+msgid "plugins.generic.ompApiWrite.sales.invalidPrice"
+msgstr "For direct sales send a numeric \"price\" greater than 0."
+
+msgid "plugins.generic.ompApiWrite.sales.invalidType"
+msgstr "salesType must be \"openAccess\", \"directSales\" or \"notAvailable\"."
+
+msgid "plugins.generic.ompApiWrite.orcid.invalid"
+msgstr "The ORCID iD is not valid (e.g. 0000-0002-1825-0097)."
+
+msgid "plugins.generic.ompApiWrite.orcid.fetchFailed"
+msgstr "The public ORCID profile could not be read. Check the ORCID iD and the connection."
+
+msgid "plugins.generic.ompApiWrite.doi.invalid"
+msgstr "The DOI is not valid (it must start with 10.xxxx/, e.g. 10.1234/book.2026.1)."
+
+msgid "plugins.generic.ompApiWrite.doi.duplicate"
+msgstr "That DOI is already assigned to another object of this press."
+
+msgid "plugins.generic.ompApiWrite.bulk.required"
+msgstr "A \"presses\" array with at least one item is required."
+
+msgid "plugins.generic.ompApiWrite.bulk.tooMany"
+msgstr "Too many presses in a single request ({$count}). The maximum is {$max}. Send them in smaller batches."
+
+msgid "plugins.generic.ompApiWrite.bulk.notObject"
+msgstr "Each item must be an object."
+
+msgid "plugins.generic.ompApiWrite.bulk.pathAndName"
+msgstr "urlPath and name are required."
+
+msgid "plugins.generic.ompApiWrite.bulk.exists"
+msgstr "A press with that path already exists."
+
+msgid "plugins.generic.ompApiWrite.bulk.localeSubset"
+msgstr "{$label} languages must be among the interface languages (supportedLocales). Outside: {$locales}"
+
+msgid "plugins.generic.ompApiWrite.series.invalidPath"
+msgstr "path may only contain letters, numbers, '/', '.', '-' and '_'."
+
+msgid "plugins.generic.ompApiWrite.series.duplicatePath"
+msgstr "Another series of this press already uses that path."
+
+msgid "plugins.generic.ompApiWrite.series.notEmpty"
+msgstr "The series still has books. Remove them from the series or delete them first."
