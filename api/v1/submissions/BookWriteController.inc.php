@@ -305,6 +305,10 @@ class BookWriteController {
 		}
 
 		$data = $this->bookProps($submission, $request, $slimRequest);
+		// Chapters and formats: OMP 3.3 skips this hook on submission delete
+		foreach (Services::get('publication')->getMany(array('submissionIds' => $submission->getId())) as $publication) {
+			Services::get('publication')->deletePublicationBefore('Publication::delete::before', array($publication));
+		}
 		Services::get('submission')->delete($submission);
 
 		return $response->withJson($data, 200);
